@@ -1,0 +1,39 @@
+{
+  "best_single_model": "xgb",
+  "best_single_test_rmse": 26357.23323871457,
+  "best_single_test_r2": 0.9046949744224548,
+  "stacking_test_rmse": 29336.613279824403,
+  "stacking_cv_rmse": 25608.73838217217,
+  "n_models_evaluated": 14,
+  "n_train": 1168,
+  "n_holdout": 292,
+  "submission_model": "stacking_optuna",
+  "submission_path": "/home/lqb464/Documents/Projects/Data Scientist/house-prices-regression/outputs/submission_stacking_optuna.csv",
+  "leaderboard_top5": [
+    {
+      "model": "xgb",
+      "test_rmse": 26357.23,
+      "test_r2": 0.9
+    },
+    {
+      "model": "xgb_tuned",
+      "test_rmse": 26357.23,
+      "test_r2": 0.9
+    },
+    {
+      "model": "catboost",
+      "test_rmse": 28497.36,
+      "test_r2": 0.89
+    },
+    {
+      "model": "catboost_tuned",
+      "test_rmse": 28659.27,
+      "test_r2": 0.89
+    },
+    {
+      "model": "stacking_optuna",
+      "test_rmse": 29336.61,
+      "test_r2": 0.88
+    }
+  ]
+}

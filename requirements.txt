@@ -1,0 +1,11 @@
+numpy>=1.22,<3
+pandas>=1.5,<3
+scikit-learn>=1.2,<2
+optuna>=3.0,<5
+joblib>=1.2,<4
+matplotlib>=3.7,<4
+seaborn>=0.12,<1
+lightgbm>=3.3,<5
+xgboost>=1.7,<3
+catboost>=1.2,<2
+jupyter>=1.0,<2
